@@ -25,7 +25,7 @@ flowchart LR
 ## C. Transparent canvas with opaque dark nodes
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"background":"transparent","fontFamily":"Inter, Arial, sans-serif","primaryColor":"#101218","primaryTextColor":"#f5f5f2","primaryBorderColor":"#06b6d4","secondaryColor":"#101218","secondaryTextColor":"#f5f5f2","secondaryBorderColor":"#06b6d4","tertiaryColor":"#101218","tertiaryTextColor":"#f5f5f2","tertiaryBorderColor":"#06b6d4","lineColor":"#727988","textColor":"#f5f5f2","mainBkg":"#101218","nodeBorder":"#06b6d4","clusterBkg":"transparent","clusterBorder":"#727988","edgeLabelBackground":"#101218","titleColor":"#f5f5f2"}}}%%
+%%{init: {"theme":"base","look":"classic","themeVariables":{"background":"transparent","fontFamily":"Inter, Arial, sans-serif","primaryColor":"#101218","primaryTextColor":"#f5f5f2","primaryBorderColor":"#06b6d4","secondaryColor":"#101218","secondaryTextColor":"#f5f5f2","secondaryBorderColor":"#06b6d4","tertiaryColor":"#101218","tertiaryTextColor":"#f5f5f2","tertiaryBorderColor":"#06b6d4","lineColor":"#727988","textColor":"#f5f5f2","mainBkg":"#101218","nodeBorder":"#06b6d4","clusterBkg":"transparent","clusterBorder":"#727988","edgeLabelBackground":"#101218","titleColor":"#f5f5f2"}}}%%
 flowchart LR
   graphql[GitHub GraphQL] --> generator[Card generator]
   generator --> light[Light SVG]
