@@ -117,6 +117,16 @@ def readme_blocks(text):
     return blocks
 
 
+def authored_readme():
+    """The repo README in its authored state: the four marker blocks emptied.
+
+    The Action fills the blocks in place and commits, so on a checked-out branch the
+    README is normally in the bot-filled state; the tests start from the empty blocks.
+    """
+    text = (REPO / "README.md").read_bytes().decode("utf-8")
+    return BLOCK_RE.sub(lambda m: f"<!-- card:{m.group(1)}:start -->\n<!-- card:{m.group(1)}:end -->", text)
+
+
 def all_keys(obj):
     if isinstance(obj, dict):
         for k, v in obj.items():
@@ -171,7 +181,7 @@ class CardsTestCase(unittest.TestCase):
             scenario_path.write_bytes(json.dumps({"http": records}, ensure_ascii=True).encode("ascii"))
         readme = tmp / "README.md"
         if readme_text is None:
-            readme_text = (REPO / "README.md").read_bytes().decode("utf-8")
+            readme_text = authored_readme()
         readme.write_bytes(readme_text.encode("utf-8"))
         out_dir = tmp / "cards"
         buf_out, buf_err = io.StringIO(), io.StringIO()
@@ -870,7 +880,8 @@ class TestSvg(CardsTestCase):
 
 class TestReadme(CardsTestCase):
     def test_blocks_replaced_outside_identical(self):
-        original = (REPO / "README.md").read_bytes().decode("utf-8")
+        self.assertEqual(len(BLOCK_RE.findall((REPO / "README.md").read_bytes().decode("utf-8"))), 4)
+        original = authored_readme()
         self.assertEqual(len(BLOCK_RE.findall(original)), 4)
         for _, body in BLOCK_RE.findall(original):
             self.assertEqual(body, "")
@@ -941,7 +952,7 @@ class TestReadme(CardsTestCase):
             self.assertRegex(vm_caption, rc.CAPTION_RE)
 
     def test_readme_over_15000_exit_2(self):
-        original = (REPO / "README.md").read_bytes().decode("utf-8")
+        original = authored_readme()
         padded = original + "\n<!-- " + "p" * 3600 + " -->\n"
         self.assertLess(len(padded.encode("utf-8")), 15000)
         run = self.run_cli(scenario_path=FIXTURES / "success.json", readme_text=padded)
