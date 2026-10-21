@@ -57,8 +57,10 @@ GRAPHQL_QUERY = (
     "weeks{ contributionDays{ date contributionCount contributionLevel weekday }}}}}}"
 )
 
-# Placeholder until FEAT-002 records the verification browser's navigator.userAgent (plan.md D-6).
-PROBE_UA = "Mozilla/5.0 (compatible; Sudish007-profile-cards/1.0; +https://github.com/Sudish007/Sudish007)"
+# navigator.userAgent of the verification browser (Playwright, Edge channel, 2026-10-21) minus the
+# "Headless" token, so the probes see the same bot-protection decision a visitor's browser gets (plan.md D-6).
+PROBE_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0")
 JSON_UA = "Sudish007-profile-cards/1.0 (+https://github.com/Sudish007/Sudish007)"
 
 PROBE_TIMEOUT = 20
