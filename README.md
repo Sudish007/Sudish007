@@ -14,6 +14,12 @@ Open to AI/ML Engineering Roles. Available: Immediately for interviews.
 Each product below is checked by this repository's own GitHub Action on every refresh (scheduled daily); the card shows the HTTP status and response time of that single check, failures included.
 
 <!-- card:products:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-dark.svg">
+  <img src="assets/cards/products-light.svg" alt="Live products, checked 21 Oct 2026, 08:39 IST from GitHub Actions: 6 of 6 reachable. KaatDo HTTP 200 in 1,635 ms; RishtaPatra HTTP 200 in 176 ms; BhojVerse HTTP 200 in 153 ms; Telusa HTTP 200 in 127 ms; Sri Sai Hospital HTTP 200 in 146 ms; Saubhagya Clinic HTTP 200 in 2,133 ms." width="100%">
+</picture>
+
+Checked 21 Oct 2026, 08:39 IST from GitHub Actions: 6 of 6 product sites reachable.[^probe]
 <!-- card:products:end -->
 
 - **KaatDo** (Live). The kill switch for Indian F&O traders: a server-side risk engine that cancels every order, flattens every position and locks the day the moment your rules break. Fyers, Upstox, Zerodha, Angel One, Dhan, Groww. Stack: FastAPI, Python, Broker APIs, Vanilla JS, OCI. [kaatdo.com](https://kaatdo.com)
@@ -59,11 +65,23 @@ Two systems that run on GitHub Actions and publish their own data files; the car
 **[Ahead](https://github.com/Sudish007/ahead)** — a personal AI intelligence dashboard: one static page that pulls 64 sources, ranks everything and writes a 5-minute daily brief. Scheduled on GitHub Actions every six hours, deployed to GitHub Pages. [Live](https://sudish007.github.io/ahead/)
 
 <!-- card:ahead:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/ahead-dark.svg">
+  <img src="assets/cards/ahead-light.svg" alt="Ahead, data generated 21 Oct 2026, 02:44 IST: 919 items from 64 sources (43 ok, 21 empty, 0 failed). Brief of 2026-10-20: 15 entries, 4 min read. Top entry: DeepInfer: High-performance inference framework for…." width="100%">
+</picture>
+
+Ahead data generated 21 Oct 2026, 02:44 IST: 919 items, 43 of 64 sources ok; brief of 2026-10-20, 15 entries.[^systems]
 <!-- card:ahead:end -->
 
 **[Startup Radar](https://github.com/Sudish007/startup-radar)** — an aggregator for new startups: product launches, funding news and accelerator batches from public feeds and APIs, in one searchable, filterable page. Scheduled hourly on GitHub Actions; GitHub runs it a few times a day in practice, and the page shows its real generation time. [Live](https://sudish007.github.io/startup-radar)
 
 <!-- card:radar:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/radar-dark.svg">
+  <img src="assets/cards/radar-light.svg" alt="Startup Radar, data generated 21 Oct 2026, 07:05 IST: 3,611 items in the 90-day feed, 234 in the last 24 hours, 1,547 in the last 7 days; 18 of 19 enabled sources ok on their last run; not ok: launchingnext: HTTP 403 for…." width="100%">
+</picture>
+
+Startup Radar data generated 21 Oct 2026, 07:05 IST: 3,611 items in the 90-day feed, 18 of 19 sources ok.[^systems]
 <!-- card:radar:end -->
 
 Also:
@@ -76,6 +94,12 @@ Also:
 ## Last 12 months on GitHub
 
 <!-- card:calendar:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/calendar-dark.svg">
+  <img src="assets/cards/calendar-light.svg" alt="GitHub contributions from 2025-10-21 to 2026-10-21: 441 total, 42 days with at least one contribution. Refreshed 21 Oct 2026, 08:39 IST." width="100%">
+</picture>
+
+441 contributions between 2025-10-21 and 2026-10-21, 42 active days; refreshed 21 Oct 2026, 08:39 IST.[^calendar]
 <!-- card:calendar:end -->
 
 ## Toolkit
