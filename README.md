@@ -16,10 +16,10 @@ Each product below is checked by this repository's own GitHub Action on every re
 <!-- card:products:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-dark.svg">
-  <img src="assets/cards/products-light.svg" alt="Live products, checked 21 Oct 2026, 08:48 IST from GitHub Actions: 6 of 6 reachable. KaatDo HTTP 200 in 1,319 ms; RishtaPatra HTTP 200 in 163 ms; BhojVerse HTTP 200 in 159 ms; Telusa HTTP 200 in 114 ms; Sri Sai Hospital HTTP 200 in 139 ms; Saubhagya Clinic HTTP 200 in 3,716 ms." width="100%">
+  <img src="assets/cards/products-light.svg" alt="Live products, checked 21 Oct 2026, 09:43 IST from GitHub Actions: 6 of 6 reachable. KaatDo HTTP 200 in 1,180 ms; RishtaPatra HTTP 200 in 122 ms; BhojVerse HTTP 200 in 85 ms; Telusa HTTP 200 in 76 ms; Sri Sai Hospital HTTP 200 in 70 ms; Saubhagya Clinic HTTP 200 in 3,757 ms." width="100%">
 </picture>
 
-Checked 21 Oct 2026, 08:48 IST from GitHub Actions: 6 of 6 product sites reachable.[^probe]
+Checked 21 Oct 2026, 09:43 IST from GitHub Actions: 6 of 6 product sites reachable.[^probe]
 <!-- card:products:end -->
 
 - **KaatDo** (Live). The kill switch for Indian F&O traders: a server-side risk engine that cancels every order, flattens every position and locks the day the moment your rules break. Fyers, Upstox, Zerodha, Angel One, Dhan, Groww. Stack: FastAPI, Python, Broker APIs, Vanilla JS, OCI. [kaatdo.com](https://kaatdo.com)
@@ -96,10 +96,10 @@ Also:
 <!-- card:calendar:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/calendar-dark.svg">
-  <img src="assets/cards/calendar-light.svg" alt="GitHub contributions from 2025-10-21 to 2026-10-21: 441 total, 42 days with at least one contribution. Refreshed 21 Oct 2026, 08:48 IST." width="100%">
+  <img src="assets/cards/calendar-light.svg" alt="GitHub contributions from 2025-10-21 to 2026-10-21: 447 total, 42 days with at least one contribution. Refreshed 21 Oct 2026, 09:43 IST." width="100%">
 </picture>
 
-441 contributions between 2025-10-21 and 2026-10-21, 42 active days; refreshed 21 Oct 2026, 08:48 IST.[^calendar]
+447 contributions between 2025-10-21 and 2026-10-21, 42 active days; refreshed 21 Oct 2026, 09:43 IST.[^calendar]
 <!-- card:calendar:end -->
 
 ## Toolkit

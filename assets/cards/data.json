@@ -5,13 +5,13 @@
    "brief_date": "2026-10-21",
    "brief_line": "Brief 2026-10-21 \u00b7 15 entries \u00b7 4 min read",
    "caption": "Ahead data generated 21 Oct 2026, 08:47 IST: 940 items, 43 of 64 sources ok; brief of 2026-10-21, 15 entries.[^systems]",
-   "card_time": "21 Oct 2026, 08:48 IST",
+   "card_time": "21 Oct 2026, 09:43 IST",
    "data_iso": "2026-10-21T03:17:23.242Z",
    "data_time": "21 Oct 2026, 08:47 IST",
    "empty_count": 21,
    "entry_count": 15,
    "failed_count": 0,
-   "footer": "data 21 Oct 2026, 08:47 IST \u00b7 card 21 Oct 2026, 08:48 IST",
+   "footer": "data 21 Oct 2026, 08:47 IST \u00b7 card 21 Oct 2026, 09:43 IST",
    "headline_num": "940",
    "headline_rest": " items \u00b7 64 sources",
    "item_count": 940,
@@ -27,33 +27,33 @@
   "calendar": {
    "active_days": 42,
    "active_line": "42 days with at least one contribution",
-   "alt": "GitHub contributions from 2025-10-21 to 2026-10-21: 441 total, 42 days with at least one contribution. Refreshed 21 Oct 2026, 08:48 IST.",
-   "caption": "441 contributions between 2025-10-21 and 2026-10-21, 42 active days; refreshed 21 Oct 2026, 08:48 IST.[^calendar]",
-   "card_time": "21 Oct 2026, 08:48 IST",
+   "alt": "GitHub contributions from 2025-10-21 to 2026-10-21: 447 total, 42 days with at least one contribution. Refreshed 21 Oct 2026, 09:43 IST.",
+   "caption": "447 contributions between 2025-10-21 and 2026-10-21, 42 active days; refreshed 21 Oct 2026, 09:43 IST.[^calendar]",
+   "card_time": "21 Oct 2026, 09:43 IST",
    "first_date": "2025-10-21",
-   "footer": "2025-10-21 to 2026-10-21 \u00b7 card 21 Oct 2026, 08:48 IST",
-   "headline_num": "441",
+   "footer": "2025-10-21 to 2026-10-21 \u00b7 card 21 Oct 2026, 09:43 IST",
+   "headline_num": "447",
    "headline_rest": " contributions",
    "last_date": "2026-10-21",
    "ok": true,
    "state": "full",
-   "total": 441,
+   "total": 447,
    "weeks_count": 53
   },
   "products": {
-   "alt": "Live products, checked 21 Oct 2026, 08:48 IST from GitHub Actions: 6 of 6 reachable. KaatDo HTTP 200 in 1,319 ms; RishtaPatra HTTP 200 in 163 ms; BhojVerse HTTP 200 in 159 ms; Telusa HTTP 200 in 114 ms; Sri Sai Hospital HTTP 200 in 139 ms; Saubhagya Clinic HTTP 200 in 3,716 ms.",
-   "caption": "Checked 21 Oct 2026, 08:48 IST from GitHub Actions: 6 of 6 product sites reachable.[^probe]",
-   "card_time": "21 Oct 2026, 08:48 IST",
-   "footer": "card 21 Oct 2026, 08:48 IST \u00b7 GET from GitHub Actions",
+   "alt": "Live products, checked 21 Oct 2026, 09:43 IST from GitHub Actions: 6 of 6 reachable. KaatDo HTTP 200 in 1,180 ms; RishtaPatra HTTP 200 in 122 ms; BhojVerse HTTP 200 in 85 ms; Telusa HTTP 200 in 76 ms; Sri Sai Hospital HTTP 200 in 70 ms; Saubhagya Clinic HTTP 200 in 3,757 ms.",
+   "caption": "Checked 21 Oct 2026, 09:43 IST from GitHub Actions: 6 of 6 product sites reachable.[^probe]",
+   "card_time": "21 Oct 2026, 09:43 IST",
+   "footer": "card 21 Oct 2026, 09:43 IST \u00b7 GET from GitHub Actions",
    "headline_num": "6 of 6",
    "headline_rest": " reachable",
    "ok": true,
    "reachable": 6,
    "rows": [
     {
-     "clause": "HTTP 200 in 1,319 ms",
-     "line": "HTTP 200 \u00b7 1,319 ms",
-     "ms": 1319,
+     "clause": "HTTP 200 in 1,180 ms",
+     "line": "HTTP 200 \u00b7 1,180 ms",
+     "ms": 1180,
      "name": "KaatDo",
      "ok": true,
      "reason": null,
@@ -61,9 +61,9 @@
      "url": "https://kaatdo.com"
     },
     {
-     "clause": "HTTP 200 in 163 ms",
-     "line": "HTTP 200 \u00b7 163 ms",
-     "ms": 163,
+     "clause": "HTTP 200 in 122 ms",
+     "line": "HTTP 200 \u00b7 122 ms",
+     "ms": 122,
      "name": "RishtaPatra",
      "ok": true,
      "reason": null,
@@ -71,9 +71,9 @@
      "url": "https://rishtapatra.com"
     },
     {
-     "clause": "HTTP 200 in 159 ms",
-     "line": "HTTP 200 \u00b7 159 ms",
-     "ms": 159,
+     "clause": "HTTP 200 in 85 ms",
+     "line": "HTTP 200 \u00b7 85 ms",
+     "ms": 85,
      "name": "BhojVerse",
      "ok": true,
      "reason": null,
@@ -81,9 +81,9 @@
      "url": "https://sudish007.github.io/bhojverse-site/"
     },
     {
-     "clause": "HTTP 200 in 114 ms",
-     "line": "HTTP 200 \u00b7 114 ms",
-     "ms": 114,
+     "clause": "HTTP 200 in 76 ms",
+     "line": "HTTP 200 \u00b7 76 ms",
+     "ms": 76,
      "name": "Telusa",
      "ok": true,
      "reason": null,
@@ -91,9 +91,9 @@
      "url": "https://sudish007.github.io/telusa-privacy/"
     },
     {
-     "clause": "HTTP 200 in 139 ms",
-     "line": "HTTP 200 \u00b7 139 ms",
-     "ms": 139,
+     "clause": "HTTP 200 in 70 ms",
+     "line": "HTTP 200 \u00b7 70 ms",
+     "ms": 70,
      "name": "Sri Sai Hospital",
      "ok": true,
      "reason": null,
@@ -101,9 +101,9 @@
      "url": "https://sudish007.github.io/srisai-website/"
     },
     {
-     "clause": "HTTP 200 in 3,716 ms",
-     "line": "HTTP 200 \u00b7 3,716 ms",
-     "ms": 3716,
+     "clause": "HTTP 200 in 3,757 ms",
+     "line": "HTTP 200 \u00b7 3,757 ms",
+     "ms": 3757,
      "name": "Saubhagya Clinic",
      "ok": true,
      "reason": null,
@@ -117,11 +117,11 @@
   "radar": {
    "alt": "Startup Radar, data generated 21 Oct 2026, 07:05 IST: 3,611 items in the 90-day feed, 234 in the last 24 hours, 1,547 in the last 7 days; 18 of 19 enabled sources ok on their last run; not ok: launchingnext: HTTP 403 for\u2026.",
    "caption": "Startup Radar data generated 21 Oct 2026, 07:05 IST: 3,611 items in the 90-day feed, 18 of 19 sources ok.[^systems]",
-   "card_time": "21 Oct 2026, 08:48 IST",
+   "card_time": "21 Oct 2026, 09:43 IST",
    "data_iso": "2026-10-21T01:35:26.218Z",
    "data_time": "21 Oct 2026, 07:05 IST",
    "enabled": 19,
-   "footer": "data 21 Oct 2026, 07:05 IST \u00b7 card 21 Oct 2026, 08:48 IST",
+   "footer": "data 21 Oct 2026, 07:05 IST \u00b7 card 21 Oct 2026, 09:43 IST",
    "headline_num": "3,611",
    "headline_rest": " items \u00b7 90-day feed",
    "items": 3611,
@@ -138,7 +138,7 @@
   }
  },
  "generated": {
-  "iso": "2026-10-21T03:18:54Z",
-  "ist": "21 Oct 2026, 08:48 IST"
+  "iso": "2026-10-21T04:13:55Z",
+  "ist": "21 Oct 2026, 09:43 IST"
  }
 }
