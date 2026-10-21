@@ -1,0 +1,35 @@
+{
+ "_comment": "Same as success.json except the launchingnext lastError carries the live value observed on 2026-10-21; the card line and alt clause become 'launchingnext: HTTP 403 for...' after fit(..., 55).",
+ "base": "success.json",
+ "http": {
+  "https://sudish007.github.io/startup-radar/data/sources.json": {
+   "status": 200,
+   "ms": 214,
+   "json": {
+    "sources": [
+     {"id": "betalist", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.219Z", "lastError": null},
+     {"id": "crunchbase", "enabled": false, "lastRunAt": null, "lastError": null},
+     {"id": "crunchbase_news", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.102Z", "lastError": null},
+     {"id": "disrupt_africa", "enabled": true, "lastRunAt": "2026-10-21T01:35:28.073Z", "lastError": null},
+     {"id": "eu_startups", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.206Z", "lastError": null},
+     {"id": "hn_launch", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.708Z", "lastError": null},
+     {"id": "hn_show", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.462Z", "lastError": null},
+     {"id": "inc42", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.252Z", "lastError": null},
+     {"id": "latamlist", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.256Z", "lastError": null},
+     {"id": "launchingnext", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.213Z", "lastError": "HTTP 403 for https://www.launchingnext.com/rss/"},
+     {"id": "producthunt", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.236Z", "lastError": null},
+     {"id": "reddit", "enabled": false, "lastRunAt": null, "lastError": null},
+     {"id": "sifted", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.353Z", "lastError": null},
+     {"id": "tech_collective", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.629Z", "lastError": null},
+     {"id": "tech_eu", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.933Z", "lastError": null},
+     {"id": "techcabal", "enabled": true, "lastRunAt": "2026-10-21T01:35:28.507Z", "lastError": null},
+     {"id": "techcrunch", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.458Z", "lastError": null},
+     {"id": "techcrunch_venture", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.464Z", "lastError": null},
+     {"id": "vulcanpost", "enabled": true, "lastRunAt": "2026-10-21T01:35:29.009Z", "lastError": null},
+     {"id": "yc", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.750Z", "lastError": null},
+     {"id": "yourstory", "enabled": true, "lastRunAt": "2026-10-21T01:35:27.655Z", "lastError": null}
+    ]
+   }
+  }
+ }
+}

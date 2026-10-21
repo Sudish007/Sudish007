@@ -3,49 +3,18 @@
   <img src="assets/hero-light.svg" alt="Sudish Kumar, ML Engineer and AI Specialist, sudish.dev" width="100%">
 </picture>
 
+AI Benchmarking Specialist at Amazon, Hyderabad; outside work I designed, built and operate Android apps and web platforms end to end.
+
 [sudish.dev](https://sudish.dev) · [LinkedIn](https://linkedin.com/in/simplysudish) · [Email](mailto:sudishdreams@gmail.com) · [Hire me](https://sudish.dev/#hire-me)
 
-## whoami
-
-```text
-$ whoami
-Sudish Kumar, ML Engineer, Hyderabad, India
-
-$ cat experience.txt
-Amazon      AI Benchmarking Specialist          Mar 2026 - Present
-AWS         Machine Learning Data Associate II  Oct 2024 - Mar 2026
-Amazon      Artificial Intelligence Associate   Sep 2023 - Mar 2024
-
-$ cat focus.txt
-Agentic AI assistant for Amazon sellers: RAG, LangGraph, guardrails
-Benchmarking AI models end-to-end: test plans, metrics, acceptance criteria
-
-$ ls ./shipped
-KaatDo  RishtaPatra  BhojVerse  Telusa  Sri-Sai-Hospital  Saubhagya-Clinic
-
-$ cat status.txt
 Open to AI/ML Engineering Roles. Available: Immediately for interviews.
-```
-
-## On the record
-
-**Certifications**
-
-- AWS Certified AI Practitioner — Amazon Web Services, Dec 2025
-- AWS Generative AI Developer — Amazon Web Services, 2026
-- Google Data Analytics Professional — Google / Coursera, Apr 2025
-- Project Management (Agile/Scrum) — Coursera, Jan 2024
-- Python for Data Science & AI — IBM / Coursera, 2024
-- SQL for Data Science — UC Davis / Coursera, 2024
-
-**Awards**
-
-- Prime Player Award — Feb & Apr 2025. Highest productivity and reliability across the entire team, twice in 3 months.
-- Leadership Recognition. Multiple shout-outs for Agentic AI SOP development and multilingual dataset creation.
 
 ## Live work
 
-Android apps and web platforms I designed, built, and operate end to end.
+Each product below is checked by this repository's own GitHub Action on every refresh (scheduled daily); the card shows the HTTP status and response time of that single check, failures included.
+
+<!-- card:products:start -->
+<!-- card:products:end -->
 
 - **KaatDo** (Live). The kill switch for Indian F&O traders: a server-side risk engine that cancels every order, flattens every position and locks the day the moment your rules break. Fyers, Upstox, Zerodha, Angel One, Dhan, Groww. Stack: FastAPI, Python, Broker APIs, Vanilla JS, OCI. [kaatdo.com](https://kaatdo.com)
 - **RishtaPatra** (Live). Free marriage biodata maker for Indian families: 12 languages, traditional templates, import from a resume or old biodata, privacy shield, HD PDF/PNG for WhatsApp. Everything runs in the browser; nothing is uploaded. Stack: Vanilla JS, on-device processing, PDF/PNG export, i18n (12 languages), Razorpay. [rishtapatra.com](https://rishtapatra.com)
@@ -54,16 +23,65 @@ Android apps and web platforms I designed, built, and operate end to end.
 - **Sri Sai Hospital** (Play Store listing in progress). Order Ayurvedic medicines, book doctors and skip the queue: UPI, card and COD checkout, live OPD queue tokens, order tracking, PDF bills, full Hindi support. Stack: React Native, Expo, payments, push notifications. [Website](https://sudish007.github.io/srisai-website/)
 - **Saubhagya Clinic** (Patient and admin apps). Homeopathy clinic suite, Siwan: consultation booking, a pharmacy with server-verified UPI, Razorpay and COD checkout, live order tracking, PDF invoices, English and Hindi. Every word is editable from the admin app. Stack: React Native, Expo, Supabase, Razorpay, Edge Functions. [drsavitak.netlify.app](https://drsavitak.netlify.app/)
 
+## On the record
+
+**Experience**
+
+- Amazon — AI Benchmarking Specialist, Hyderabad — Mar 2026 to present
+  - Agentic AI assistant for Amazon sellers (RAG, LangGraph, guardrails); benchmarking AI models end to end: test plans, evaluation metrics and acceptance criteria.
+- Amazon Web Services (AWS) — Machine Learning Data Associate II, Bengaluru — Oct 2024 to Mar 2026
+- Amazon — Artificial Intelligence Associate, Delhi (remote) — Sep 2023 to Mar 2024
+
+**Certifications**
+
+- AWS Certified AI Practitioner — Amazon Web Services, Dec 2025
+- AWS Generative AI Developer — Amazon Web Services, 2026
+
+<details>
+<summary>Four more: Google, Coursera, IBM, UC Davis</summary>
+
+- Google Data Analytics Professional — Google / Coursera, Apr 2025
+- Project Management (Agile/Scrum) — Coursera, Jan 2024
+- Python for Data Science & AI — IBM / Coursera, 2024
+- SQL for Data Science — UC Davis / Coursera, 2024
+
+</details>
+
+**Awards**
+
+- Prime Player Award — Feb & Apr 2025. Highest productivity and reliability across the entire team, twice in 3 months.
+- Leadership Recognition. Multiple shout-outs for Agentic AI SOP development and multilingual dataset creation.
+
 ## Selected projects
 
-- [Ahead](https://github.com/Sudish007/ahead) — a personal AI intelligence dashboard: one static page that pulls 64 sources, ranks everything and writes a 5-minute daily brief. Runs on GitHub Actions every six hours and deploys to GitHub Pages. [Live](https://sudish007.github.io/ahead/)
-- [Startup Radar](https://github.com/Sudish007/startup-radar) — an aggregator for new startups: product launches, funding news and accelerator batches from public feeds and APIs, in one searchable, filterable page. Rebuilt every hour on GitHub Pages. [Live](https://sudish007.github.io/startup-radar)
-- [SageMaker Smart Stats](https://github.com/Sudish007/sagemaker-smart-stats) — a JavaScript productivity-analytics tool built at AWS: automated metric tracking, surfaced workflow bottlenecks, and saved ~45 minutes per associate daily across a 200-person team.
+Two systems that run on GitHub Actions and publish their own data files; the cards read those files when this README refreshes.
+
+**[Ahead](https://github.com/Sudish007/ahead)** — a personal AI intelligence dashboard: one static page that pulls 64 sources, ranks everything and writes a 5-minute daily brief. Scheduled on GitHub Actions every six hours, deployed to GitHub Pages. [Live](https://sudish007.github.io/ahead/)
+
+<!-- card:ahead:start -->
+<!-- card:ahead:end -->
+
+**[Startup Radar](https://github.com/Sudish007/startup-radar)** — an aggregator for new startups: product launches, funding news and accelerator batches from public feeds and APIs, in one searchable, filterable page. Scheduled hourly on GitHub Actions; GitHub runs it a few times a day in practice, and the page shows its real generation time. [Live](https://sudish007.github.io/startup-radar)
+
+<!-- card:radar:start -->
+<!-- card:radar:end -->
+
+Also:
+
+- [SageMaker Smart Stats](https://github.com/Sudish007/sagemaker-smart-stats) — a JavaScript productivity-analytics tool built at AWS: automated metric tracking, surfaced workflow bottlenecks, and saved ~45 minutes per associate daily across a 200-person team.[^stats]
 - [Enterprise Fiber Management System](https://github.com/Sudish007/fiber-management-system) — a full-stack telecom network operations platform: fiber routes, splice points, customer connections, topology mapping and real-time status tracking. TypeScript, Node.js, REST API.
 - [Hoshlab](https://github.com/Sudish007/hoshlab) — an agentic company: scheduled AI agents that plan, draft and QA Instagram posts for three products, with every idea, draft, approval and run stored as a file in the repo. Build in progress. [Site](https://sudish007.github.io/hoshlab/)
 - [portfolio](https://github.com/Sudish007/portfolio) — the source of [sudish.dev](https://sudish.dev).
 
+## Last 12 months on GitHub
+
+<!-- card:calendar:start -->
+<!-- card:calendar:end -->
+
 ## Toolkit
+
+<details>
+<summary>Machine learning · generative AI and agents · AWS and MLOps · Python · SQL and data engineering · analytics · infrastructure · web</summary>
 
 - **Machine Learning & Deep Learning:** PyTorch, TensorFlow, Scikit-Learn, XGBoost, LightGBM, Random Forest, CNNs/RNNs, Feature Engineering, Hyperparameter Tuning, Model Optimization, Transfer Learning
 - **Generative AI & Agentic Systems:** LLM Fine-tuning (LoRA/QLoRA), RAG Pipelines, LangChain, LangGraph, CrewAI, Hugging Face, Prompt Engineering, Agentic AI, MCP (Model Context Protocol), Guardrails, AI Safety, Red-Teaming, LLM Evaluation, Vector Databases (FAISS/Pinecone)
@@ -74,15 +92,29 @@ Android apps and web platforms I designed, built, and operate end to end.
 - **Tools & Production Infrastructure:** Git/GitHub, Linux, Docker, Kubernetes, REST APIs, Microservices, CI/CD, Agile/Scrum, Ray Serve
 - **Web Development (Side):** HTML/CSS/JS, TypeScript, Node.js, Responsive Design, SEO, UI/UX
 
-## Connect
+</details>
 
-- Portfolio: [sudish.dev](https://sudish.dev)
-- LinkedIn: [linkedin.com/in/simplysudish](https://linkedin.com/in/simplysudish)
+## Contact
+
 - Email: [sudishdreams@gmail.com](mailto:sudishdreams@gmail.com)
+- LinkedIn: [linkedin.com/in/simplysudish](https://linkedin.com/in/simplysudish)
+- Portfolio: [sudish.dev](https://sudish.dev)
 - Hiring: [sudish.dev/#hire-me](https://sudish.dev/#hire-me). Roles: ML Engineer, GenAI Engineer, Data Scientist, NLP Engineer, MLOps, AI Solutions Architect. Location: Anywhere (preferred: Bengaluru / Hyderabad / Pune / Gurgaon). Notice period: 30 Days / Negotiable.
 
 Also available for freelance AI/ML consulting: custom ML models, data pipelines and AI tools, from idea to production. [Services and pricing](https://sudish.dev/services.html).
 
+<details>
+<summary>How the live cards are made</summary>
+
+`.github/workflows/refresh.yml` runs `scripts/refresh_cards.py` (Python 3.12, standard library only); it is scheduled daily at 08:13 IST and can be run on demand. GitHub may delay or skip scheduled runs, so each card prints the time it was actually generated. The script reads the sources named on each card, draws light and dark SVGs with the site's Inter and JetBrains Mono subsets embedded, rewrites the alt text and caption under each card, and commits as `github-actions[bot]` when anything changed. Nothing is hot-linked from a third-party service.
+
+</details>
+
 ---
 
 [sudish.dev](https://sudish.dev)
+
+[^probe]: One HTTP GET per product website from a GitHub-hosted `ubuntu-24.04` runner at the time printed on the card, redirects followed; "reachable" means a final status of 200–399 received within 20 seconds, measured from the request start to the first 64 KB of the body. The response time is that single request's wall-clock time, not an average. A 403 can mean a bot-protection layer blocked the probe rather than the site being down; the status is shown either way.
+[^systems]: Read at refresh time from each project's published data: Ahead `data/meta.json` and `data/digests/` (an "empty" source is a successful fetch that kept no item), Startup Radar `data/stats.json` and `data/sources.json` ("items" is the source's own 90-day-feed count; "ok" means the source ran and recorded no error on its most recent run). The data's own generation time is printed on the card.
+[^stats]: Figure as published on sudish.dev (AWS role bullet); the "~" is the site's own approximation. Not re-measured for this page.
+[^calendar]: Counted by GitHub's GraphQL `contributionCalendar` for the date range printed on the card, queried with this repository's default Actions token. Colour steps are GitHub's own quartile levels. The total can differ from the graph on github.com.
