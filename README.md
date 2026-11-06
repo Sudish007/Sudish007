@@ -16,10 +16,10 @@ Each product below is checked by this repository's own GitHub Action on every re
 <!-- card:products:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-dark.svg">
-  <img src="assets/cards/products-light.svg" alt="Live products, checked 05 Nov 2026, 15:20 IST from GitHub Actions: 6 of 6 reachable. KaatDo HTTP 200 in 1,253 ms; RishtaPatra HTTP 200 in 133 ms; BhojVerse HTTP 200 in 147 ms; Telusa HTTP 200 in 63 ms; Sri Sai Hospital HTTP 200 in 65 ms; Saubhagya Clinic HTTP 200 in 4,093 ms." width="100%">
+  <img src="assets/cards/products-light.svg" alt="Live products, checked 06 Nov 2026, 15:24 IST from GitHub Actions: 6 of 6 reachable. KaatDo HTTP 200 in 1,365 ms; RishtaPatra HTTP 200 in 171 ms; BhojVerse HTTP 200 in 155 ms; Telusa HTTP 200 in 136 ms; Sri Sai Hospital HTTP 200 in 146 ms; Saubhagya Clinic HTTP 200 in 4,534 ms." width="100%">
 </picture>
 
-Checked 05 Nov 2026, 15:20 IST from GitHub Actions: 6 of 6 product sites reachable.[^probe]
+Checked 06 Nov 2026, 15:24 IST from GitHub Actions: 6 of 6 product sites reachable.[^probe]
 <!-- card:products:end -->
 
 - **KaatDo** (Live). The kill switch for Indian F&O traders: a server-side risk engine that cancels every order, flattens every position and locks the day the moment your rules break. Fyers, Upstox, Zerodha, Angel One, Dhan, Groww. Stack: FastAPI, Python, Broker APIs, Vanilla JS, OCI. [kaatdo.com](https://kaatdo.com)
@@ -67,10 +67,10 @@ Two systems that run on GitHub Actions and publish their own data files; the car
 <!-- card:ahead:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/ahead-dark.svg">
-  <img src="assets/cards/ahead-light.svg" alt="Ahead, data generated 05 Nov 2026, 10:33 IST: 1,612 items from 64 sources (44 ok, 19 empty, 1 failed). Brief of 2026-11-05: 15 entries, 4 min read. Top entry: Introducing Images 2.6." width="100%">
+  <img src="assets/cards/ahead-light.svg" alt="Ahead, data generated 06 Nov 2026, 10:33 IST: 1,547 items from 64 sources (45 ok, 19 empty, 0 failed). Brief of 2026-11-06: 15 entries, 4 min read. Top entry: Random Is Almost Enough? Stable and Low-Cost…." width="100%">
 </picture>
 
-Ahead data generated 05 Nov 2026, 10:33 IST: 1,612 items, 44 of 64 sources ok; brief of 2026-11-05, 15 entries.[^systems]
+Ahead data generated 06 Nov 2026, 10:33 IST: 1,547 items, 45 of 64 sources ok; brief of 2026-11-06, 15 entries.[^systems]
 <!-- card:ahead:end -->
 
 **[Startup Radar](https://github.com/Sudish007/startup-radar)** — an aggregator for new startups: product launches, funding news and accelerator batches from public feeds and APIs, in one searchable, filterable page. Scheduled hourly on GitHub Actions; GitHub runs it a few times a day in practice, and the page shows its real generation time. [Live](https://sudish007.github.io/startup-radar)
@@ -78,10 +78,10 @@ Ahead data generated 05 Nov 2026, 10:33 IST: 1,612 items, 44 of 64 sources ok; b
 <!-- card:radar:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/radar-dark.svg">
-  <img src="assets/cards/radar-light.svg" alt="Startup Radar, data generated 05 Nov 2026, 08:59 IST: 3,666 items in the 90-day feed, 206 in the last 24 hours, 1,545 in the last 7 days; 18 of 19 enabled sources ok on their last run; not ok: tech_eu: HTTP 403 for https://tech.eu/feed/." width="100%">
+  <img src="assets/cards/radar-light.svg" alt="Startup Radar, data generated 06 Nov 2026, 14:53 IST: 3,742 items in the 90-day feed, 238 in the last 24 hours, 1,556 in the last 7 days; 18 of 19 enabled sources ok on their last run; not ok: tech_eu: HTTP 403 for https://tech.eu/feed/." width="100%">
 </picture>
 
-Startup Radar data generated 05 Nov 2026, 08:59 IST: 3,666 items in the 90-day feed, 18 of 19 sources ok.[^systems]
+Startup Radar data generated 06 Nov 2026, 14:53 IST: 3,742 items in the 90-day feed, 18 of 19 sources ok.[^systems]
 <!-- card:radar:end -->
 
 Also:
@@ -96,10 +96,10 @@ Also:
 <!-- card:calendar:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cards/calendar-dark.svg">
-  <img src="assets/cards/calendar-light.svg" alt="GitHub contributions from 2025-11-05 to 2026-11-05: 658 total, 56 days with at least one contribution. Refreshed 05 Nov 2026, 15:20 IST." width="100%">
+  <img src="assets/cards/calendar-light.svg" alt="GitHub contributions from 2025-11-06 to 2026-11-06: 658 total, 56 days with at least one contribution. Refreshed 06 Nov 2026, 15:24 IST." width="100%">
 </picture>
 
-658 contributions between 2025-11-05 and 2026-11-05, 56 active days; refreshed 05 Nov 2026, 15:20 IST.[^calendar]
+658 contributions between 2025-11-06 and 2026-11-06, 56 active days; refreshed 06 Nov 2026, 15:24 IST.[^calendar]
 <!-- card:calendar:end -->
 
 ## Toolkit
